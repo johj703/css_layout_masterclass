@@ -1,5 +1,6 @@
-body {
+.father {
   display: flex;
+  gap: 10px;
 }
 
 .box {
