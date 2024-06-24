@@ -1,14 +1,15 @@
 .father {
   display: flex;
-  height: 100vh
+  height: 100vh;
+  flex-derection: row;
   gap: 10px;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .box {
   width: 200px;
-  height: 200px
+  height: 200px;
   background-color: tomato;
   color: white;
   font-size: 36px;
