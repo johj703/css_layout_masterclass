@@ -1,7 +1,5 @@
-body {
-  background-color: blue;
-}
-
-h1 {
-  color: white;
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
 }
