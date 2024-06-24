@@ -4,3 +4,7 @@
   background-color: tomato;
   display: inline-block;
 }
+
+.box:first-child {
+  display: block;
+}
