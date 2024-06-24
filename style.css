@@ -4,3 +4,11 @@
   background-color: tomato;
   display: inline-block;
 }
+
+.box:first-child {
+  margin-right: 25%;
+}
+
+.box:last-child {
+  margin-left: 25%;
+}
