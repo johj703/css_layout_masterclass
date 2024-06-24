@@ -1,8 +1,8 @@
 .father {
   display: flex;
-  flex-direction: row;
   gap: 10px;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .box {
