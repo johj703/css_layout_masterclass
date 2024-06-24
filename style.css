@@ -12,4 +12,5 @@
   background-color: tomato;
   color: white;
   font-size: 36px;
+  display: flex;
 }
