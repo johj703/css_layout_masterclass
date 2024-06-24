@@ -3,6 +3,7 @@
   height: 200px;
   background-color: tomato;
   display: inline-block;
+  text-align: right;
 }
 
 .box:first-child {
