@@ -1,7 +1,8 @@
 .father {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
   gap: 10px;
+  justify-content: center;
 }
 
 .box {
