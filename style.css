@@ -6,11 +6,11 @@
 }
 
 .box:first-child {
-  margin-right: 25%;
+  float: left;
 }
 
 .box:last-child {
-  margin-left: 25%;
+  float: right;
 }
 
 .box:nth-child(2) {
