@@ -14,6 +14,12 @@ ul {
     color: white;
     padding: 5px 10px;
     border-radius: 7px;
+
+    a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+    }
   }
 }
 
@@ -23,10 +29,4 @@ ul li:hover {
 
 ul li:hover a {
   color: gray;
-}
-
-ul li a {
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
 }
