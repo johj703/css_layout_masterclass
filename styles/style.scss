@@ -5,6 +5,11 @@ body {
   padding: 60px;
 }
 
+$breakpoint-sm: 480px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1200px;
+
 @mixin alert($bgColor, $borderColor) {
   background-color: $bgColor;
   margin: 10px;
