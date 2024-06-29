@@ -5,7 +5,8 @@ body {
   padding: 60px;
 }
 
-%alert {
+@mixin alert($bgColor) {
+  background-color: $bgColor;
   margin: 10px;
   padding: 10px 20px;
   border-radius: 10px;
@@ -13,16 +14,13 @@ body {
 }
 
 .success {
-  @extend %alert;
-  background-color: green;
+  @include alert(green);
 }
 
 .error {
-  @extend %alert;
-  background-color: tomato;
+  @include alert(tomato);
 }
 
 .warning {
-  @extend %alert;
-  background-color: yellow;
+  @include alert(yellow);
 }
