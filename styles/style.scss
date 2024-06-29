@@ -11,16 +11,23 @@ body {
   padding: 10px 20px;
   border-radius: 10px;
   border: 1px dashed $borderColor;
+  @content;
 }
 
 .success {
-  @include alert(green, blue);
+  @include alert(green, blue) {
+    font-size: 12px;
+  }
 }
 
 .error {
-  @include alert(tomato, white);
+  @include alert(tomato, white) {
+    text-decoration: underline;
+  }
 }
 
 .warning {
-  @include alert(yellow, black);
+  @include alert(yellow, black) {
+    text-transform: uppercase;
+  }
 }
