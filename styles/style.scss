@@ -8,13 +8,13 @@ ul {
   padding: 0;
   display: flex;
   gap: 10px;
-}
 
-ul li {
-  background-color: tomato;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 7px;
+  li {
+    background-color: tomato;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 7px;
+  }
 }
 
 ul li:hover {
