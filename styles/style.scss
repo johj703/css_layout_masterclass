@@ -26,3 +26,21 @@ $breakpoint-xl: 1200px;
     @content;
   }
 }
+
+body {
+  @include smallDevice {
+    background-color: blue;
+  }
+
+  @include mediumDevice {
+    background-color: red;
+  }
+
+  @include largeDevice {
+    background-color: purple;
+  }
+
+  @include xlDevice {
+    background-color: pink;
+  }
+}
