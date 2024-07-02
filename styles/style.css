@@ -3,7 +3,7 @@
   height: 100vh;
   gap: 10px;
   justify-content: flex-start;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .box {
