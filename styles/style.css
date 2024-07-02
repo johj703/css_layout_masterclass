@@ -2,10 +2,12 @@
   display: flex;
   height: 100vh;
   gap: 10px;
-  justify-content: flex-start;
-  /* flex-flow: row wrap; */
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: center;
+  flex-flow: row wrap;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  align-items: center;
+  align-content: center;
 }
 
 .box {
