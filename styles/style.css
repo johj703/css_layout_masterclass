@@ -2,6 +2,8 @@
   display: flex;
   height: 100vh;
   gap: 10px;
+  row-gap: 10px;
+  column-gap: 20px;
   justify-content: center;
   flex-flow: row wrap;
   /* flex-direction: row;
