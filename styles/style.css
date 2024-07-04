@@ -22,3 +22,11 @@
   justify-content: center;
   align-items: center;
 }
+
+.box:nth-child(3) {
+  background-color: blueviolet;
+}
+
+.box:nth-child(6) {
+  background-color: aqua;
+}
