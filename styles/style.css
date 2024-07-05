@@ -1,7 +1,6 @@
 .father {
   display: flex;
   height: 100vh;
-  gap: 10px;
   row-gap: 10px;
   column-gap: 20px;
   justify-content: center;
@@ -9,7 +8,6 @@
   /* flex-direction: row;
   flex-wrap: wrap; */
   align-items: center;
-  align-content: center;
 }
 
 .box {
