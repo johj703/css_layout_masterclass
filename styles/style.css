@@ -28,5 +28,5 @@
 
 .box:nth-child(6) {
   background-color: aqua;
-  order: 1;
+  order: -1;
 }
