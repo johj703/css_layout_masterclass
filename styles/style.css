@@ -22,8 +22,10 @@ body {
 
 .box:first-child {
   background-color: tomato;
+  flex-grow: 2;
 }
 
 .box:last-child {
   background-color: teal;
+  flex-grow: 1;
 }
