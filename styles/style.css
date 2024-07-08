@@ -8,11 +8,10 @@ body {
   display: flex;
   height: 100vh;
   justify-content: center;
-  flex-flow: row wrap;
 }
 
 .box {
-  height: 200px;
+  height: 400px;
   color: white;
   font-size: 36px;
   display: flex;
@@ -27,5 +26,10 @@ body {
 
 .box:last-child {
   background-color: teal;
-  flex-grow: 5;
+  flex-grow: 1;
+}
+
+.box:nth-child(2) {
+  background-color: orange;
+  flex-grow: 2;
 }
