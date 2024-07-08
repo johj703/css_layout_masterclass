@@ -25,14 +25,14 @@ body {
   flex-shrink: 1;
 }
 
-.box:last-child {
-  background-color: teal;
-  flex-grow: 1;
-  flex-shrink: 2;
-}
-
 .box:nth-child(2) {
   background-color: orange;
   flex-grow: 2;
   flex-shrink: 3;
+}
+
+.box:last-child {
+  background-color: teal;
+  flex-grow: 1;
+  flex-shrink: 2;
 }
