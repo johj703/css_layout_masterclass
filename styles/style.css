@@ -21,7 +21,7 @@ body {
 
 .box:first-child {
   background-color: tomato;
-  flex: 1 0 500px;
+  flex: 0 1 500px;
 }
 
 .box:last-child {
